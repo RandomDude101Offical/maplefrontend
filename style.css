@@ -13,7 +13,8 @@ body {
 
 main {
 	width: 750px;
-	margin: 0 auto;
+	max-width: 100%;
+	margin: 0 auto;	
 }
 
 .head {
@@ -29,7 +30,9 @@ main {
 	align-items: center;
 	justify-content: center;
 	color: #eeeeee;
+	padding: 8px 0; /* ¯\_(ツ)_/¯ */
 }
+
 
 .header a {
 	color: #eeeeee;
@@ -49,11 +52,11 @@ main {
 	//border-radius: 2%;
 }
 
-button,
-input,
-textarea {
+
+button, input, textarea {
 	font-family: 'Open Sans', sans-serif;
-	border-radius: 0%;
+	border-radius: 0;
+	font-size: 14px;
 }
 
 button,
