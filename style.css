@@ -37,7 +37,10 @@ main {
 }
 
 .header a {
-    color: #333333;
+    color: #1D1C1A;
+}
+.header span {
+    color: #1D1C1A;
 }
 
 .box {
