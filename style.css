@@ -32,16 +32,15 @@ main {
     font-weight: bold;
     align-items: center;
     justify-content: center;
-    color: #eeeeee;
-    padding: 12px 20px; 
-    background-color: #f1f3f4;  
-    border-radius: 12px;  
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    padding: 12px 20px;
+    background-color: #ffffff; 
+    border-radius: 12px; 
+    border: 2px solid #dddddd;  
 }
 
 .header a {
     color: #1D1C1A;
-    text-decoration: none; 
+    text-decoration: none;
 }
 .header span {
     color: #1D1C1A;
