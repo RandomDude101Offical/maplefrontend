@@ -73,8 +73,15 @@ table {
     width: 100%;
 }
 
-th, td {
+td {
     border: 1px solid #cccccc;
     background-color: #ffffff;
+    padding: 8px;
+}
+
+th {
+    border: 1px solid #cccccc;
+    background-color: #bbbbbb;
+    color: #bbbbbb;
     padding: 8px;
 }
