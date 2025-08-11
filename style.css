@@ -1,89 +1,114 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
-html {
-    font-family: 'Rubik', sans-serif;
-}
+        html {
+            font-family: 'Rubik', sans-serif;
+        }
 
-body {
-    height: 100%;
-    margin: 0;
-    background: linear-gradient(
-        to bottom,
-        #e7f0ff,
-        #c8ddff
-    );
-    background-size: cover;
-    background-position: center top;
-    background-attachment: fixed;
-}
+        body {
+            font-weight: 300; 
+            height: 100%;
+            margin: 0;
+            background: linear-gradient(
+                to bottom,
+                #e7f0ff,
+                #c8ddff
+            );
+            background-size: cover;
+            background-position: center top;
+            background-attachment: fixed;
+        }
 
-main {
-    width: 750px;
-    max-width: 100%;
-    margin: 0 auto;
-}
+        h1, h2 {
+            font-weight: 700;
+        }
+        h3, h4, h5, h6, p {
+            font-weight: 300;
+        }
 
-.head {
-    background-image: url("https://maplecity.rf.gd/website/assets/header.png");
-    background-size: 100% 120%;
-}
+        main {
+            width: 750px;
+            max-width: 100%;
+            margin: 0 auto;
+            padding: 20px;
+        }
 
-.header {
-    display: flex;
-    font-size: 20px;
-    font-weight: bold;
-    align-items: center;
-    justify-content: center;
-    padding: 12px 20px;
-    background-color: #ffffff;
-    border-radius: 12px;
-    border: 1px solid #cccccc;
-}
+        .head {
+            background-image: url("https://maplecity.rf.gd/website/assets/header.png");
+            background-size: 100% 120%;
+            height: 150px;
+            margin-bottom: 20px;
+        }
 
-.header a {
-    color: #1D1C1A;
-    text-decoration: none;
-}
-.header span {
-    color: #1D1C1A;
-}
-.box {
-    border: 1px solid #cccccc;
-    border-radius: 12px;
-    background-color: #ffffff;
-}
+        .header {
+            display: flex;
+            font-size: 20px;
+            font-weight: bold;
+            align-items: center;
+            justify-content: center;
+            padding: 12px 20px;
+            background-color: #ffffff;
+            border-radius: 12px;
+            border: 1px solid #cccccc;
+            margin-bottom: 20px;
+        }
 
-button, input, textarea {
-    font-family: 'Open Sans', sans-serif;
-    border-radius: 6px;
-    font-size: 14px;
-    border: 1px solid #cccccc;
-    padding: 6px 10px;
-}
+        .header a {
+            color: #1D1C1A;
+            text-decoration: none;
+        }
+        .header span {
+            color: #1D1C1A;
+        }
 
-button,
-input:hover {
-    font-size: 14px;
-}
+        .box {
+            border: 1px solid #cccccc;
+            border-radius: 12px;
+            background-color: #ffffff;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
 
-table {
-    border-collapse: separate;
-    border-spacing: 0;
-    border: 1px solid #cccccc;
-    border-radius: 12px;
-    background-color: #ffffff;
-    width: 100%;
-}
+        button, input, textarea {
+            font-family: 'Open Sans', sans-serif; 
+            border-radius: 6px;
+            font-size: 14px;
+            border: 1px solid #cccccc;
+            padding: 6px 10px;
+            margin-bottom: 10px;
+        }
 
-td {
-    border: 1px solid #cccccc;
-    background-color: #ffffff;
-    padding: 8px;
-}
+        button,
+        input:hover {
+            font-size: 14px;
+        }
 
-th {
-    border: 1px solid #cccccc;
-    background-color: #bbbbbb;
-    color: #000000;
-    padding: 8px;
-}
+        table {
+            border-collapse: separate;
+            border-spacing: 0;
+            border: 1px solid #cccccc;
+            border-radius: 12px;
+            background-color: #ffffff;
+            width: 100%;
+            overflow: hidden;
+        }
+
+        td {
+            border-top: 1px solid #cccccc;
+            background-color: #ffffff;
+            padding: 8px;
+        }
+        
+        td:first-child {
+            border-left: none;
+        }
+        td:last-child {
+            border-right: none;
+        }
+
+        th {
+            border-bottom: 1px solid #cccccc;
+            background-color: #f2f2f2;
+            color: #000000;
+            padding: 8px;
+            font-weight: 500;
+        }
