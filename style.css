@@ -64,8 +64,17 @@ input:hover {
     font-size: 14px;
 }
 
-table, th, td {
+table {
+    border-collapse: separate;
+    border-spacing: 0;
     border: 1px solid #cccccc;
     border-radius: 12px;
     background-color: #ffffff;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #cccccc;
+    background-color: #ffffff;
+    padding: 8px;
 }
