@@ -10,8 +10,8 @@
             margin: 0;
             background: linear-gradient(
                 to bottom,
-                #e7f0ff,
-                #c8ddff
+                #ffecb3, /* #e7f0ff */
+                #ff8a65 /* #c8ddff */
             );
             background-size: cover;
             background-position: center top;
