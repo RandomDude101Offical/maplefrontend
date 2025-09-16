@@ -49,6 +49,38 @@ button, input:hover {
 	font-size: 14px;
 }
 
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+    border: 1px solid #cccccc;
+    border-radius: 12px;
+    background-color: #ffffff;
+    width: 100%;
+    overflow: hidden;
+}
+
+td {
+    border-top: 1px solid #cccccc;
+    background-color: #ffffff;
+    padding: 8px;
+}
+        
+td:first-child {
+    border-left: none;
+}
+td:last-child {
+    border-right: none;
+}
+
+th {
+    border-bottom: 1px solid #cccccc;
+    background-color: #f2f2f2;
+    color: #000000;
+    padding: 8px;
+    font-weight: 500;
+}
+
+
 /*
         goodbye old css!
 
