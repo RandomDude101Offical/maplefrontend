@@ -1,19 +1,66 @@
-        @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
-        html {
-            font-family: 'Rubik', sans-serif;
-        }
+html {
+        font-family: 'Rubik', sans-serif;
+}
+
+body {
+	height: 100%;
+	background: linear-gradient(to right, #b3c8ff, #2153d1, #b3c8ff);
+	background-size: cover;
+	background-position: center top;
+}
+
+main {
+	width: 750px;
+	margin: 0 auto;	
+}
+
+.head { 
+	background-image: url("https://maplecity.rf.gd/website/assets/header.png");
+	background-size: 100% 120%;
+}
+			
+.header {
+	display: flex;
+	//background-color: #eeeeee;
+	font-size: 20px;
+	font-weight: bold;
+	align-items: center;
+	justify-content: center;
+	color: #eeeeee;
+}
+
+.header a { 
+	color: #eeeeee;
+}
+
+.box {
+	border: 1px solid black;
+	background-color: #ffffff;
+}
+		
+button, input, textarea {
+	font-family: 'Open Sans', sans-serif;
+	border-radius: 0%;
+}
+		
+button, input:hover {
+	font-size: 14px;
+}
+
+/*
+        goodbye old css!
 
         body {
             font-weight: 300; 
             height: 100%;
             margin: 0;
-            background-image: url("https://images2.alphacoders.com/996/thumb-1920-996599.jpg");
-            /*background: linear-gradient(
+            background: linear-gradient(
                 to bottom,
                 #e7f0ff,
                 #c8ddff
-            );*/
+            );
             background-size: cover;
             background-position: center top;
             background-attachment: fixed;
@@ -116,3 +163,5 @@
             padding: 8px;
             font-weight: 500;
         }
+
+*/
