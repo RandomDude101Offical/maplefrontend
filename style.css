@@ -6,7 +6,7 @@ html {
 
 body {
 	height: 100%;
-	background: linear-gradient(to bottom, #7a0c12, #800e14, #7a0c12); /*linear-gradient(to right, #b3c8ff, #2153d1, #b3c8ff);*/
+	background: linear-gradient(to bottom, #ff0040, #800e14, #ff0040); /*linear-gradient(to right, #b3c8ff, #2153d1, #b3c8ff);*/
 	background-size: cover;
 	background-position: center top;
 }
